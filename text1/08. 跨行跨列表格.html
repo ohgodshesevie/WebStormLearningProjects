@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>复杂表格</title>
+</head>
+<body>
+    <!--Emmet语法：table[border=1 width=500 align=center]>tr*3>td{内容$$}*3-->
+    <table border="1" width="500" align="center">
+        <tr align="center">
+            <th rowspan="2" align="center" valign="bottom">内容区01</th> <!--rowspan：合并两行--> <!--valign：垂直对齐方式，top/middle/bottom-->
+            <th>内容区02</th>
+            <th rowspan="3">内容区03</th>
+        </tr>
+        <tr align="center">
+            <td>内容区02</td> <!--第二行的第一列被合并，所以删除-->
+        </tr>
+        <tr>
+            <td>内容区01</td>
+            <td>内容区02</td>
+        </tr>
+    </table>
+    <br/><br/>
+    <table border="1" width="500" align="center">
+        <tr>
+            <th rowspan="2">内容区01</th>
+            <th colspan="2">内容区02</th>
+        </tr>
+        <tr>
+            <td>内容区02</td>
+            <td>内容区03</td>
+        </tr>
+        <tr align="center">
+            <td colspan="3">内容区01</td>
+        </tr>
+    </table>
+</body>
+</html>

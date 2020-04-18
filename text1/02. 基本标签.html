@@ -1,0 +1,100 @@
+<!--按!+tab会自动生成文档结构-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--做移动端开发设置-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        1. div:
+        用来布局，没有具体含义。一个div占一行。层
+    -->
+    <div>
+        abc
+        <div>
+            def
+        </div>
+    </div>
+
+    <!--
+        2. hx:
+        标题，从1级到6级。1级标题最大，会自动加粗，有默认字号
+    -->
+    <h1>前端课程内容</h1>
+    <h2>项目开发</h2>
+    <h6>大前端开发</h6>
+
+    <!--
+        3. p:
+        表示段落，相当于一个回车。
+    -->
+    <p>中新网4月16日电 据北京市气象局官方微博消息，北京市气象台2020年4月16日17时00分升级发布大风黄色预警信号：预计17日09时至16时，本市大部分地区有4、5级偏北风，阵风8、9级，西部、北部局地10级，并伴有扬沙，请注意防范。</p>
+    <p>图片来源：北京市气象局官方微博</p>
+
+    <!--
+        4. br:
+        换行。单标签。
+    -->
+    中新网4月16日电 据北京市气象局官方微博消息，<br /> <!--对单标签进行闭合操作-->
+    北京市气象台2020年4月16日17时00分升级发布大风黄色预警信号：<br>
+    预计17日09时至16时，本市大部分地区有4、5级偏北风，阵风8、9级，西部、北部局地10级，<br>
+    并伴有扬沙，请注意防范。<br>
+
+    <!--
+        5. hr:
+        生成一条水平线，主要起装饰作用。单标签。
+    -->
+    <hr />
+    <hr width="80%" align="center" color="red" height="2px">
+
+    <!--
+        6. a:
+        实现链接跳转
+    -->
+    <a href="http://baidu.com" title="百度">百度</a> <!--title: 鼠标停留时的提示文字-->
+    <a href="01. HTML文档结构.html" target="_blank">文档结构(新网页)</a>
+    <a href="01. HTML文档结构.html" target="_self">文档结构(当前窗口)</a>
+
+    <div>
+    <!--
+        7. img:
+        用来加载外部图片。src: 用来设定加载的图片或图像路径。alt: 图片加载失败时显示内容。-->
+        <img src="https://img.alicdn.com/i2/2/TB1t.e1m2DH8KJjy1XcXXcpdXXa?abtest=&pos=1&abbucket=&acm=03014.1003.1.765824&scm=1007.13143.56636.100200300000000_90x90q90.jpg"
+             alt="商品"
+             title="Nike" width="150"/>
+        <img src="xxx"
+             alt="商品" />
+    </div>
+
+    <!--
+        8. span:
+        作用与div相同，都是用来布局的。不同的是span不会单独占一行。用于行列布局。
+    -->
+    <div>div1</div>
+    <div>div2</div>
+    <span>span1</span>
+    <span>span2</span>
+
+    <!--
+        9. ul/ol:
+        前者为无序列表，后者为有序列表。它们的列表内容都用的是li标签。
+        ul>li{li$}*3
+    -->
+    <ul>
+        <li>li1</li>
+        <li>li2</li>
+        <li>li3</li>
+    </ul>
+    <ol>
+        <li>li1</li>
+        <li>li2</li>
+        <li>li3</li>
+    </ol>
+
+</body>
+</html>

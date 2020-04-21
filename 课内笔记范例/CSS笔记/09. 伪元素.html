@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪元素</title>
+    <style>
+        p:first-letter{
+            font: 60px 黑体;
+            color: rgba(15, 33, 144, 0.97);
+            text-indent: 2em;
+        }
+        p:first-line{
+            text-decoration: overline;
+        }
+        p:before{
+            content: '❤';
+        }
+        p:after{
+            content: '......';
+        }
+
+    </style>
+</head>
+<body>
+    <p>伪类和伪元素是用来修饰不在文档树中的部分；伪类允许出现在选择器的任何位置，而一个伪元素只能跟在选择器的最后一个简单选择器后面；
+        伪元素名和伪类名都对大小写不敏感。</p>
+</body>
+</html>

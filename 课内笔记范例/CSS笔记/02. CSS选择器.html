@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择器</title>
+    <style>
+        /* 1. *：用来匹配所有标签 */
+        *{
+            color: black;
+        }
+
+        /*2. 标签选择器*/
+        span{
+            display: block;
+            margin-right: 20px;
+            border: 1px solid gray;
+        }
+
+        /*3. 类选择器*/
+        .wrapper{
+            color: #a90c00;
+        }
+
+        /*4. id选择器*/
+        #content{
+            color: pink;
+        }
+
+        /*5. 派出选择器*/
+        .box2 li{        /*选择box2下的所有li标签*/
+            color: #1237;
+        }
+    </style>
+</head>
+<body>
+    <p>这是P标签</p>
+    <strong>这是strong标签</strong>
+
+    <span>这是span标签（标签选择器）</span>
+
+    <div class="wrapper">这是div标签（类选择器）</div>
+    <p class="wrapper">这是P标签（类选择器）</p>
+
+    <!--Emmet语法：p#content：#后面为id名-->
+    <p id="content">这是内容（id选择器）</p>
+
+    <ul class="box1">
+        <li>li001</li>
+        <li>li002</li>
+        <li>li003</li>
+    </ul>
+
+    <ul class="box2">
+        <li>li001</li>
+        <li>li002</li>
+        <li>li003
+            <ul>
+                <li>sub1</li>
+                <li>sub2</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

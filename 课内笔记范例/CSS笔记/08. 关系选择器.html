@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关系选择器</title>
+    <style>
+        h1 strong{  /*空格：h1里面的所有strong*/
+            color: white;
+            background-color: #000;
+        }
+        h1>strong{ /*儿子选择器*/
+            color: red;
+            background-color: green;
+        }
+
+        /*兄弟选择器*/
+        ul li+li+li{  /*选择从第三个开始后面所有标签*/
+            list-style-type: none; /*取消项目编号*/
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <strong>关系1
+            <span>
+                <strong>关系2</strong>
+            </span>
+        </strong>
+    </h1>
+
+    <ul>
+        <li>li01</li>
+        <li>li02</li>
+        <li>li03</li>
+        <li>li04</li>
+        <li>li05</li>
+    </ul>
+</body>
+</html>

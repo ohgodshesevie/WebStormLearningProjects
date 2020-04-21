@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css引用方式</title>
+
+    <!--3. 引入外部样式文件（习惯放在style标签前面）-->
+    <!-- 语法写法：link:css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--2. 内部样式表（尽量写在head里，用style标签包裹）-->
+    <style>
+        /* 4. import导入外部样式
+            写法：@import*/
+        @import "css/test.css";
+
+        p{
+            background-color: #eeeeee; /*背景色*/
+            font-size: 18px;
+            font-style: italic; /*文字倾斜*/
+        }
+    </style>
+</head>
+<body>
+    <!--1. 行间样式（嵌入式样式）-->
+    <div style="color: blueviolet; width: 200px; border: 1px solid cornflowerblue;">行间样式测试1</div>
+    <div>行间样式测试2</div>
+
+    <p>段落1</p>
+    <p>段落2</p>
+
+    <span>外部样式测试</span>
+    <span>外部样式测试</span>
+    <span>外部样式测试</span>
+
+    <div class="box">导入外部样式</div>
+    <div class="box">导入外部样式</div>
+    <div class="box">导入外部样式</div>
+
+    <em class="box">同学们好！</em>
+</body>
+</html>

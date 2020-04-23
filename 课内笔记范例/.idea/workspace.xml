@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30f887fb-61c6-42d9-9575-3bb006d7ffa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS笔记/01. css引用方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS笔记/02. CSS选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS笔记/03. 选择器的分组及样式继承.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS笔记/04. 样式权重.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS笔记/05. CSS背景.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS笔记/06. 伪类选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS笔记/07. 属性选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS笔记/08. 关系选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS笔记/09. 伪元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS笔记/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS笔记/css/test.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../作业/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. HTML文档结构.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02. 基本标签.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03. 标签属性.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04. 文本格式化标签.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05. 语义化标签.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06. 标签通用属性.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07. 基本表格.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08. 跨行跨列表格.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/09. 完整表格.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10. 表单元素.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11. input元素.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12. textarea元素.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13. select元素.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14. button按钮.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/15. iframe元素.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iframe/banner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iframe/content1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iframe/content2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iframe/nav.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/PIA22950_hires.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/PIA23802_hires.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,10 +17,11 @@
     <session id="1371900497">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -114,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS笔记/05. CSS背景.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="176">
               <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
             </state>
           </provider>
@@ -123,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS笔记/06. 伪类选择器.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
+            <state relative-caret-position="480">
               <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
             </state>
           </provider>
@@ -132,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS笔记/07. 属性选择器.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="272">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -141,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS笔记/08. 关系选择器.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="272">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -150,7 +114,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSS笔记/09. 伪元素.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
+            <state relative-caret-position="384">
               <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
             </state>
           </provider>
@@ -219,7 +183,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="320" />
-    <option name="y" value="-24" />
+    <option name="y" value="-25" />
     <option name="width" value="1315" />
     <option name="height" value="980" />
   </component>
@@ -231,7 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +206,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,11 +246,12 @@
       <updated>1587434168275</updated>
       <workItem from="1587434169422" duration="6932000" />
       <workItem from="1587462800170" duration="4153000" />
+      <workItem from="1587517440405" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11085000" />
+    <option name="totallyTimeSpent" value="11684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -343,9 +308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -373,6 +335,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSS笔记/05. CSS背景.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS笔记/06. 伪类选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS笔记/07. 属性选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS笔记/08. 关系选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/02. 基本标签.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
@@ -390,37 +380,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS笔记/05. CSS背景.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS笔记/06. 伪类选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS笔记/07. 属性选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS笔记/08. 关系选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS笔记/09. 伪元素.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
+        <state relative-caret-position="384">
           <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
         </state>
       </provider>

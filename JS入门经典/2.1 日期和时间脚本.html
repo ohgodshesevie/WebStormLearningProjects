@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>日期和时间</title>
+</head>
+<body>
+<h1>current day and time</h1>
+<p>
+    <script language="JavaScript" type="text/javascript">
+        now = new Date();
+        localtime = now.toString();
+        utctime = now.toGMTString();
+        document.write("<b>Local time: </b>" + localtime + "<br/>");
+        document.write("<b>UTC time: </b>" + utctime);
+        // 用钟表形式展示时间
+        hours = now.getHours();
+        mins = now.getMinutes();
+        secs = now.getSeconds();
+        document.write("<h1>" + hours + ":" + mins + ":" + secs + "</h1>");
+    </script>
+
+    <!--外部导入js文件-->
+    <script language="JavaScript" type="text/javascript" src="js/datetime.js"></script>
+</p>
+</body>
+</html>

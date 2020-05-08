@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*轮播组图*/
+.carousel{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    position: relative; /*相对定位*/
+    overflow: hidden;
+}
+
+.carousel-imgs{
+    width: 3000px;
+}
+
+.carousel-imgs li{
+    float: left;
+}
+
+.carousel-imgs img{
+    width: 1000px;
+}
+
+/*控制器*/
+.prev{
+    width: 441px;
+    height: 441px;
+    cursor: pointer;
+    background-image: url(../img/icon1.png);
+    position: absolute; /*绝对定位：脱离文档流浮起来，相对于relative的对象进行定位。*/
+    left: 20px;
+    top: 30px;
+}
+
+.next{
+    width: 431px;
+    height: 431px;
+    cursor: pointer;
+    background-image: url(../img/icon2.png);
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+
+/*计数器*/
+.counter{
+    width: 1000px;
+    height: 10px;
+    position: absolute;
+    bottom: 25px;
+
+}
+
+.counter ul{
+    width: 60px;
+    height: 10px;
+    margin: 0 auto;
+    /*background-color: #FF8000;*/
+ }
+
+.counter ul li{
+    width: 10px;
+    height: 10px;
+    cursor: pointer; /*将鼠标形状设为手型，添加链接*/
+    background-color: #ffffff;
+    opacity: .8; /*透明度*/
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%; /*圆角*/
+}
+
+.counter .active{
+    background-color: #ff1000;
+}
